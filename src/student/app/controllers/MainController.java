@@ -145,6 +145,7 @@ public class MainController implements Initializable {
         EditController editController=loader.getController();
         editController.setSelectedStudent(selectedStudent);
         Scene scene=new Scene(root);
+        
         Stage editStage=new Stage();
         editStage.setScene(scene);
         editStage.initModality(Modality.WINDOW_MODAL);
